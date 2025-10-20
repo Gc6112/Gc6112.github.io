@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body {
+    font-size: 14px;
+    font-family: "微软雅黑";
+    background-color: #f5f5f5;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.clearfix:after {
+    /*伪元素是行内元素 正常浏览器清除浮动方法*/
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.header img {
+    width: 100%;
+}
+
+.nav {
+    background-color: #c1070e;
+}
+
+.nav .w {
+    width: 1182px;
+}
+
+.nav a {
+    line-height: 60px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 200px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.nav .mr0 {
+    margin-right: 0;
+}
+
+.picnews {
+    margin: 30px auto;
+    box-shadow: 0px 0px 6px 2px #d1d1d1;
+}
+
+.picnews ul {
+    overflow: hidden;
+    padding: 10px;
+}
+
+.picnews ul li {
+    float: left;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.picnews ul li:last-child {
+    margin-right: 0;
+}
+
+.picnews ul li img {
+    width: 220px;
+    height: 133px;
+}
+
+.picnews ul li a {
+    text-decoration: none;
+    color: #333
+}
+
+.picnews ul li a:hover {
+    color: #e60012;
+}
+
+.picnews h3,
+.r h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 10px;
+    line-height: 40px;
+    border-bottom: 1px dashed #ccc;
+}
+
+.main {
+    margin-bottom: 30px;
+}
+
+.l,
+.r {
+    float: left;
+    box-shadow: 0px 0px 6px 2px #d1d1d1;
+}
+
+.l {
+    margin-right: 30px;
+    width: 700px;
+}
+
+.l img {
+    width: 100%;
+}
+
+.r {
+    width: 470px;
+}
+
+.r ul {
+    padding: 10px;
+}
+
+.r ul li {
+    line-height: 41px;
+}
+
+.r ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.r ul li a:hover {
+    color: red;
+}
+
+.nr {
+    width: 1200px;
+    margin: 30px auto;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 1px;
+}
+
+.nr h1 {
+    font-size: 40px;
+    letter-spacing: 9px;
+    margin: 60px 0;
+    font-family: "黑体";
+}
+
+.nr p {
+    font-size: 22px;
+    letter-spacing: 5px;
+    line-height: 40px;
+    margin: 10px 0 30px 30px;
+    text-align: left;
+    text-indent: 2em;
+    font-family: "宋体";
+}
+
+.nr img {
+    width: 700px;
+    float: right;
+    margin: 0 30px;
+}
+
+.footer {
+    width: 100%;
+    line-height: 80px;
+    background-color: #c6080e;
+    text-align: center;
+    color: white;
+    border-top: 3px solid yellow;
+}

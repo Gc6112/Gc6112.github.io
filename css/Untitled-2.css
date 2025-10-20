@@ -1,0 +1,197 @@
+/* CSS Document */
+@charset "utf-8";
+*{margin:0;padding:0;}
+body{margin:0 auto}
+.clear{ clear:both;}
+a{color:#333;text-decoration:none;}
+a:hover{text-decoration:underline;}
+li{list-style-type:none;}
+img{width:auto;max-width:100%;}
+.main{width:1200px;margin:0 auto;overflow:visible;}
+
+.content12{width:1200px;margin:0 auto;}
+
+
+.daohang {
+width:1200px;background:#FF6600;float:left;
+
+}
+.daohang .img{
+width:226px;
+float:left;
+
+}
+
+.daohang .img img{
+width:200px;height:90px;
+float:left;
+}
+
+
+
+.daohang ul{
+width:934px;
+background:#FF6600;float:left;
+}
+
+.daohang ul li{
+float:left;
+width:100px; 
+text-align:center;
+height:90px;line-height:90px;color:#fff;position: relative;
+}
+
+
+.daohang ul li a.active{
+color:#fff;}
+.daohang ul li a{
+color:#fff;}
+ 
+.daohang li:hover a{
+color:#fff;}
+
+
+
+
+
+
+
+
+
+.guanggaotupian
+{
+text-align:center;
+
+}
+.guanggaotupian img
+{
+width:1200px;
+
+}
+
+
+
+
+
+.content8{width:800px;float:left;}
+
+
+.taitou .title{
+
+
+
+border-bottom-color:#FF6600;border-bottom-style:solid;border-bottom-width:1px;
+
+
+
+overflow:hidden;
+margin-bottom:10px;
+margin-top:10px;
+margin-left:10px;
+margin-right:10px;
+}
+.taitou .stitle{text-align:center;padding:10px 20px;font-weight:bold;float:left;
+
+
+color:#000000;
+}
+.taitou .more{
+padding-top:10px;
+float:right;
+margin-right:10px;
+font-weight:bold;
+
+}
+
+
+
+.xysh ul
+{
+width:800px;
+}
+.xysh ul li
+{
+width:780px;padding:5px;
+float:left;
+
+
+
+
+
+.yonghubiaodan 
+{
+width:1200px;overflow: hidden;
+text-align:center;
+}
+
+
+
+
+.yonghubiaodan ul li
+{
+padding-left:10px;
+margin-bottom:10px;
+width:370px;margin-right:10px;
+float:left;
+}
+
+.yonghubiaodan .list
+{
+border-bottom-color:#dddddd;border-bottom-style:solid;border-bottom-width:1px;border-top-color:#dddddd;border-top-style:solid;border-top-width:1px;border-left-color:#dddddd;border-left-style:solid;border-left-width:1px;border-right-color:#dddddd;border-right-style:solid;border-right-width:1px;
+}
+
+
+
+
+
+
+.yonghubiaodan  form
+{
+line-height:40px;
+}
+.yonghubiaodan select{
+width:380px;text-align:left;
+margin:0px 10px;
+overflow:hidden;
+vertical-align:middle;
+height:40px;height:40px;line-height:40px;
+}
+
+.yonghubiaodan checkbox,radio{
+text-align:left;
+margin:0px 10px;
+
+overflow:hidden;
+vertical-align:middle;
+height:40px;height:40px;line-height:40px;
+}
+
+
+.yonghubiaodan input{
+width:280px;text-align:left;
+margin:0px 10px;
+overflow:hidden;
+vertical-align:middle;
+height:40px;line-height:40px;}
+
+.yonghubiaodan textarea{
+width:250px;text-align:left;
+margin:0px 0px;
+overflow:hidden;
+vertical-align:middle;
+font-size: 16px;
+height:100px;
+
+}
+
+
+.yonghubiaodan .title
+{
+margin:0px 10px;
+}
+.yonghubiaodan button{
+width:100%;
+text-align:center;
+margin:0px 5px;
+line-height:42px;height:42px;line-height:42px;background:#000000;color:#ffffff;
+}
