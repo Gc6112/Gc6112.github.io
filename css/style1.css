@@ -1,0 +1,32 @@
+
+.navbar {
+    background-color: #c1070e;
+}
+
+.navbar .w {
+    width: 1182px;
+}
+
+.navbar a {
+    line-height: 60px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar .mr0 {
+    margin-right: 0;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul  li {
+        list-style: none;
+        padding: 0 2rem;
+
+}
